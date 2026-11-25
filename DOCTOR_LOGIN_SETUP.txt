@@ -1,0 +1,12 @@
+Doctor Appointment - Doctor Login and Appointment setup
+
+1. Doctor accounts are NOT created from the app. Create doctor email/password accounts in Firebase Console > Authentication > Users.
+2. Copy the UID for each doctor account.
+3. Open Firebase Console > Realtime Database > Doctors and open the matching doctor record.
+4. Add a field exactly named doctorUid and paste that doctor's Firebase Authentication UID as its value.
+5. The app reads doctorUid from the Doctors records and writes it to Firestore Appointments when a patient books.
+6. Doctor login uses the same email/password created in Firebase Authentication. After login, the dashboard queries Firestore Appointments where doctorUid equals the logged-in doctor's UID.
+7. Bookings created before doctorUid was added are not automatically linked; they won't show in the doctor's list unless updated in Firestore.
+8. Test the patient flow: Get Started > Patient Login > sign in > select a doctor whose Realtime Database record has doctorUid > select date/time > book. Then sign out and test Doctor Login with that doctor's Firebase account.
+
+The Gradle wrapper build could not be verified in this environment because it tried to download Gradle and network access was unavailable. Please open the project in Android Studio with internet available, let Gradle Sync finish, then Build > Rebuild Project.

@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Doctor Appointment</string>
+
+    <string name="schedule_appointment_with_ease">Schedule Appointment\nwith Ease</string>
+    <string name="schecule_appointment_n_with_ease">Schedule Appointment\n with Ease</string>
+
+    <string name="how_are_you_today">How Are You Today?</string>
+    <string name="hi_pratik_gupta">Hi, Pratik Gupta</string>
+    <string name="search_hint">Searching&#8230;</string>
+    <string name="top_doctors">Top Doctors</string>
+    <string name="see_all">See all</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Top Doctor Card -->
+    <string name="doctor_image">Doctor image</string>
+    <string name="doctor_name">Dr. Michael Roberts</string>
+    <string name="doctor_speciality">Orthopedics</string>
+    <string name="doctor_rating">★ 4.2</string>
+    <string name="doctor_patients">1200+ Years</string>
+
+</resources>
